@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+:root {
+    --background-body: #006aff, #880ed4, #f0009c;
+    --background-transparent: rgba(255, 255, 255, 0.4);
+    --background-input: rgb(216, 169, 254);
+    --secondary-color: DimGrey;
+    --tertiary-color: rgba(220, 220, 220, 0.3);
+    --test-color: #880ed4;
+}
+body {
+    background: linear-gradient(90deg, var(--background-body));
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+body p {
+    color: #fff;
+}
+
+#container {
+    position: relative;
+    height: 465px;
+    width: 330px;
+    margin: 150px auto;
+    background: var(--background-transparent);
+    box-shadow: 4px 4px 0px #b24bf3;
+    border-radius: 10px;
+}
+#header {
+    background-color: var(--tertiary-color);
+    border-radius: 10px 10px 0 0px;
+}
+.title {
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #0056ff;
+}
+
+.tips-form {
+    padding: 30px 25px;
+    margin: -20px 20%;
+}
+
+.form-input {
+    background-color: var(--background-input);
+    border-radius: 5px;
+    width: 43px;
+    padding-left: 13px;
+    text-align: center;
+}
+
+.form-input:focus {
+    border: 3px solid #880ed4;
+    outline: none;
+}
+
+.form-select {
+    background-color: var(--background-input);
+    border-radius: 5px;
+    width: 165px;
+    padding: 3px;
+    text-align: center;
+}
+.form-select:focus {
+    border: 3px solid #880ed4;
+    outline: none;
+}
+
+.form-submit {
+    background-color: var(--background-input);
+    border-radius: 5px;
+    border: 2px solid #880ed4;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    margin: 10px 20%;
+}
+
+.form-submit:hover {
+    background-color: #880ed4;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+#totalTip {
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+    color: #fff;
+}
